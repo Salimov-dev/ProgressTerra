@@ -8,15 +8,16 @@ const Main = styled.div`
   padding: 32px 28px 76px 25px;
 `;
 
+const Image = styled.img`
+  width: 24px;
+  cursor: pointer;
+`;
+
 const MainSection = () => {
   return (
     <Main>
       <span>ЛОГОТИП</span>
-      <img
-        src={informationButtonIcon}
-        style={{ width: "24px", cursor: "pointer" }}
-        alt="Info"
-      />
+      <Image src={informationButtonIcon} alt="Info" />
     </Main>
   );
 };

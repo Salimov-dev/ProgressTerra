@@ -1,8 +1,9 @@
+// libraries
 import React from "react";
 import { styled } from "styled-components";
 // icons
-import BurningIcon from "../../assets/icons/burning.png";
 import ArrowIcon from "../../assets/icons/arrow.svg";
+import BurningIcon from "../../assets/icons/burning.png";
 // components
 import Loader from "../../components/loader";
 

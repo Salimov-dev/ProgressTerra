@@ -1,5 +1,5 @@
-import React from "react";
 // libraries
+import React from "react";
 import dayjs from "dayjs";
 import { useSelector } from "react-redux";
 import { styled } from "styled-components";
@@ -27,13 +27,13 @@ const BonusInfo = () => {
     <Component>
       <StatusBar />
       <MainSection />
-      <Footer />
       <Bonuses
         currentQuantity={currentQuantity}
         dateBurningTransform={dateBurningTransform}
         forBurningQuantity={forBurningQuantity}
         isLoading={bonusInfoLoadingStatus}
       />
+      <Footer />
     </Component>
   );
 };

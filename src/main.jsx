@@ -1,7 +1,11 @@
+// libraries
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+// css
 import "./index.css";
+// App
+import App from "./App.jsx";
+// store and redux
 import { createStore } from "./store/create.store.js";
 import { Provider } from "react-redux";
 
